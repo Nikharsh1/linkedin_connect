@@ -5,24 +5,24 @@
 
 (async () => {
   // maximum amount of connection requests
-  const MAX_CONNECTIONS = 10;
+  const MAX_CONNECTIONS = 50;
   // time in ms to wait before requesting to connect
   const WAIT_TO_CONNECT = 2000;
   // time in ms to wait before new employees load after scroll
   const WAIT_AFTER_SCROLL = 3000;
   // message to connect (%EMPLOYEE% and %COMPANY% will be replaced with real values)
-  const MESSAGE = `Hi %EMPLOYEE%, I'm a Software Engineer with 4 yrs of experience in full-stack web development. 
-	I see you're currently working at %COMPANY% where I saw a Full Stack job post and was interested to hear more about it. 
+  const MESSAGE = `Hi %EMPLOYEE%, I am Nikharsh Shah. I am a student at Northeastern University with 2 years of experience as a Project Manager
+	I see you're currently working at %COMPANY% where I saw a Project Management job post and was interested to hear more about it. 
 	Would you (or a colleague) have time to chat about the position?
-	Thanks! Mario`;
+	Thanks! Nikharsh`;
   // keywords to filter employees in specific positions
   const POSITION_KEYWORDS = [
-    "software",
-    "developer",
-    "full stack",
-    "back end",
-    "front end",
-    "r&d",
+    "Project Manager",
+    "Project Coordinator",
+    "Program Manager",
+    "Business Analyst",
+    "Product Manager",
+    "healthcare",
   ];
 
   // <--> //
